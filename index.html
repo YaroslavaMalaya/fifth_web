@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" href="styles/style.css"/> 
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    <!-- First task -->
+    <p class="title">First task</p>
+    <div id="concatenateString"> 
+        <p>Concatenate String Checker</p>
+        <form id="concatenateForm">
+            <label for="text">Enter Text:</label>
+            <input type="text" id="text" name="text"><br><br>
+            <label for="maxLength">Enter Max Length:</label>
+            <input type="number" id="maxLength" name="maxLength"><br><br>
+            <button class="buttons" onclick="checkConcatenation()">Submit</button>
+        </form><br>
+        <p>Result: <span id="result">here will be your result</span></p>
+    </div><br>
+
+    <!-- Second task -->
+    <div id="createTableCells">
+        <p class="title">Second task</p>
+        <div id="form2">
+            <label for="rows">Rows:</label>
+            <input type="number" id="rows" value=""><br><br>
+            <label for="columns">Columns:</label>
+            <input type="number" id="columns" value=""><br><br>
+            <button class="buttons" onclick="createNewTable()">Create</button>
+        </div><br>
+        <table id="newTable"></table>
+    </div><br>
+    
+    <!-- Third task -->
+    <div id="addBooks">
+        <p class="title">Third task</p><br>
+        <div id="Bookshelf">
+            <div id="container1">
+                <p>My book shelf</p>
+                <p id="amoutOfBooks">Total amount of books: <span id="amountOfB"></span></p>
+                <button class="buttons" id="unreadB" onclick="getUnreadBooks()">Alert number of unread books</button>
+                <button class="buttons" id="favdB" onclick="getFavBooks()">Alert number of fav books</button>
+            </div>
+            <div id="container2">
+                <p>Add new book</p>
+                <input type="text" id="titleB" value="" placeholder="Title"><br>
+                <input type="text" id="authorB" value="" placeholder="Author"><br>
+                <input type="number" id="pagesB" value="" placeholder="Number of pages"><br>
+                <button class="buttons" onclick="addNewBook()">Add book</button>
+            </div>
+            <div id="container3">
+                <p>Here you can update bookshelf</p>
+                <button class="buttons" onclick="showBookshelf()">Update bookshelf</button>
+            </div>
+        </div>
+    </div>
+    <div id="bookshelf"></div>
+</body>
+</html>

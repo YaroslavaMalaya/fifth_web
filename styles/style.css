@@ -1,0 +1,167 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0
+}
+
+#concatenateString{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    border-radius: 30px;
+    border: 1px solid #0400ff;
+    padding-left: 20px;
+}
+
+#result {
+    margin-top: auto;
+}
+
+.title{
+    color: #0400ff;
+    text-align: center; 
+    font-size: 35px;
+}
+
+.buttons{
+    color: white; 
+    text-align: center;
+    padding: 8px 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px; 
+    border: 1px solid #0400ff;
+    background: #0400ff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.buttons:active{
+    color: #0400ff;
+    border: 1px solid #0400ff;
+    background-color: white; 
+}
+
+#createTableCells {
+    margin-top: 30%; 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#form2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    border: 1px solid #0400ff;
+    border-radius: 30px;
+    padding: 20px 20px;
+}
+
+#newTable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #0400ff;
+}
+
+#newTable th, #newTable td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #0400ff;
+}
+
+#newTable tr:hover {
+    background-color: #fae2fc;
+}
+
+#newTable tr:first-child {
+    background-color: #e2e9fc; 
+    font-weight: bold;
+}
+
+#addBooks{
+    margin-top: 850px;
+}
+
+#Bookshelf{
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    justify-content: space-around;
+    border: 1px solid #0400ff;
+}
+
+input{
+    border: 1px solid #0400ff;
+    border-radius: 30px;
+    background-color: white;
+    padding: 5px 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+#container2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: flex-start;
+}
+
+#bookshelf{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+}
+
+.bookDiv {
+    border: 1px solid #0400ff;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.bookDiv p {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#divB{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.buttons2{
+    color: #0400ff; 
+    text-align: center;
+    padding: 8px 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px; 
+    border: 1px solid #0400ff;
+    background: white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.buttons2:active{
+    color: white;
+    border: 1px solid #0400ff;
+    background-color: #0400ff; 
+}
